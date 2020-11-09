@@ -58,7 +58,7 @@ public:
     CypherCode() {
         int cube;
         string temp;
-        //cout << "Your cypher table:\n";
+        cout << "Your cypher table:\n";
         for (int i = 0; i < 26; ++i) {
 
             do {
@@ -68,7 +68,7 @@ public:
             temp = nums[cube];
             cypherDic[alphabet[i]] = nums[cube];
             nums[cube] = "-1";
-           //cout << alphabet[i] << ": " << temp << "\n";
+           cout << alphabet[i] << ": " << temp << "\n";
         }
     }
 

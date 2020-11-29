@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/kawaiiuroboros/Desktop/fasm/HW3/wholeProjectInClion/main.cpp
+iostream
+-
+map
+-
+vector
+-
+omp.h
+-
+algorithm
+-
+string
+-
+
